@@ -24,4 +24,9 @@ class ExampleUnitTest {
     fun addition_isCorrect3() {
         assertEquals(9, 4 + 5)
     }
+
+    @Test
+    fun addition_isCorrect4() {
+        assertEquals(9, 4 + 4)
+    }
 }
