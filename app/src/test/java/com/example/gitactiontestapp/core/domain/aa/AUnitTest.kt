@@ -1,4 +1,4 @@
-package com.example.gitactiontestapp
+package com.example.gitactiontestapp.core.domain.aa
 
 import org.junit.Test
 
@@ -9,7 +9,7 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class AUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
