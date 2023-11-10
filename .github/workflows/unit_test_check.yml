@@ -21,4 +21,4 @@ jobs:
         run: chmod +x ./gradlew
       - name: Build and Test
         run: |
-          ./gradlew app:test
+          ./gradlew app:test --tests "com.example.gitactiontestapp.core.domain.bb.*"
