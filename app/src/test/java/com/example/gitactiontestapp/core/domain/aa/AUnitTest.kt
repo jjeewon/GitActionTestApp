@@ -12,17 +12,17 @@ import org.junit.Assert.*
 class AUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        assertEquals(10, 2 + 2)
     }
 
     @Test
     fun addition_isCorrect2() {
-        assertEquals(8, 4 + 4)
+        assertEquals(11, 4 + 4)
     }
 
     @Test
     fun addition_isCorrect3() {
-        assertEquals(9, 4 + 5)
+        assertEquals(12, 4 + 5)
     }
 
     @Test
